@@ -1,0 +1,20 @@
+{
+	"name": "SqlServerTable_Categories",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServerlocal",
+			"type": "LinkedServiceReference"
+		},
+		"type": "SqlServerTable",
+		"structure": [
+			{
+				"name": "ProductCategoryID",
+				"type": "Int32"
+			},
+			{
+				"name": "Category",
+				"type": "String"
+			}
+		]
+	}
+}
