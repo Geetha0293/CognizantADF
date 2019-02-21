@@ -1,0 +1,17 @@
+{
+	"name": "SqlServerlocal",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Sql server int he vm ",
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=Geethasql2017;initial catalog=AdventureWorks2014",
+			"userName": "geetha",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI4MTIwYTExNS1jNjVlLTQ3ODUtYWQyMy1kYWNlNTcyNDM1YjAiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "GeethaIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
